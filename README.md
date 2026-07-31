@@ -1,13 +1,13 @@
 # 🏦 Loan Approval Prediction Project
 
-## 📖 Overview
+##  Overview
 This repository contains a machine learning pipeline designed to analyze applicant financial profiles and predict whether a loan application will be approved or denied.
 
 The dataset contains **1,000 records** across **20 distinct features** covering applicant demographics, financial standings, credit scores, and requested loan parameters.
 
 ---
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 * **Total Samples:** 1,000 entries
 * **Total Features:** 20 features (12 numerical, 8 categorical)
@@ -21,14 +21,15 @@ The dataset contains **1,000 records** across **20 distinct features** covering 
 
 ---
 
-## 🛠️ Data Preprocessing & Pipeline Highlights
+##  Data Preprocessing & Pipeline Highlights
 * **Missing Value Imputation:** Handled missing data across numerical (median/mean) and categorical (mode) features.
 * **Feature Engineering & Cleaning:** Stripped non-informative identifiers like `Applicant_ID`.
 * **Categorical Encoding:** Converted non-numeric categories via One-Hot / Ordinal Encoding for model training.
 
 ---
 
-## 🚀 Tech Stack
+## 
+Tech Stack
 * **Language:** Python
 * **Data Processing & Analysis:** `pandas`, `numpy`
 * **Visualization:** `seaborn`, `matplotlib`
